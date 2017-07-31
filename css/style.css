@@ -871,7 +871,7 @@ footer.contact {
     line-height: 1.5em; }
 
   .contact.main_section {
-    min-height: auto; }
+    min-height: 0; }
 
   .header_number {
     display: none; }
@@ -880,7 +880,10 @@ footer.contact {
     display: block; }
     .main_phone_call a {
       color: #1b2618;
-      font-size: 40px; } }
+      font-size: 40px; }
+
+  .text_prof_helpful {
+    background: #fff; } }
 @media (max-width: 600px) {
   .navbar-header p {
     font-size: 25px; }

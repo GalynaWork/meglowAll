@@ -3,10 +3,14 @@ $(document).ready(function () {
         if( $(".right_side").hasClass("download")){
             $(".right_side").removeClass("download");
             $("#estate_button").removeClass("download");
+
         }
         else{
         $(".right_side").addClass("download");
         $("#estate_button").addClass("download");
+        $('html, body').animate({
+                scrollTop: $(".logo").offset().top
+            }, 2000);
         }
         }
 

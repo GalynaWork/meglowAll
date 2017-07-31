@@ -192,7 +192,8 @@ footer {
     margin-left: 90px; }
   footer div {
     max-width: 1400px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
 
 .callToday {
   display: none; }
@@ -865,7 +866,10 @@ footer.contact {
 
   .profile-list .description-profile p {
     font-size: 26px;
-    line-height: 1.5em; } }
+    line-height: 1.5em; }
+
+  .contact.main_section {
+    max-height: auto; } }
 @media (max-width: 600px) {
   .navbar-header p {
     font-size: 25px; }

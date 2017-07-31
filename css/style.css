@@ -201,7 +201,7 @@ footer {
 .navbar-header p {
   display: none; }
 
-.blazon p, .blazon span {
+.blazon p, .blazon span, .main_phone_call {
   display: none; }
 
 @media (min-width: 1200px) {
@@ -239,7 +239,8 @@ footer {
     position: relative;
     top: -28px;
     left: 0;
-    text-align: center; }
+    text-align: center;
+    padding-top: 20px; }
     .logo a img {
       max-width: 618px;
       width: 90%;
@@ -352,7 +353,7 @@ footer {
     background: none; }
     .main_section .bg_autumn {
       display: block !important;
-      margin-bottom: 30px; }
+      margin-bottom: 15px; }
     .main_section .blazon {
       position: relative;
       bottom: 0px;
@@ -386,7 +387,7 @@ footer {
       .main_section .blazon span {
         display: inline-block;
         color: #fff;
-        font-size: 24px;
+        font-size: 38px;
         font-weight: 700; }
 
   footer {
@@ -446,7 +447,7 @@ footer {
   .info-estate p {
     font: 400 15px "Source Sans Pro", sans-serif;
     color: #5c5b5b;
-    text-align: justify; }
+    text-align: left; }
   .info-estate .left_side {
     padding-left: 43px;
     padding-right: 33px;
@@ -609,7 +610,7 @@ footer.contact {
     padding-left: 30px;
     padding-top: 11px;
     padding-right: 30px;
-    text-align: justify; }
+    text-align: left; }
   .profile-list .title-text-profile {
     display: flex;
     display: -webkit-flex;
@@ -774,7 +775,7 @@ footer.contact {
     margin: 0;
     font-size: 26px;
     color: #5c5b5b;
-    text-align: justify; }
+    text-align: left; }
 
   .nevada-office {
     margin-bottom: 25px; }
@@ -838,10 +839,10 @@ footer.contact {
   .text_before_profile p {
     font-size: 25px;
     padding: 0 33px;
-    text-align: justify; }
+    text-align: left; }
 
   .info-estate p {
-    text-align: justify;
+    text-align: left;
     font-size: 26px; }
 
   .profile-list .title-text-profile {
@@ -869,7 +870,16 @@ footer.contact {
     line-height: 1.5em; }
 
   .contact.main_section {
-    max-height: auto; } }
+    min-height: auto; }
+
+  .header_number {
+    display: none; }
+
+  .main_phone_call {
+    display: block; }
+    .main_phone_call a {
+      color: #1b2618;
+      font-size: 40px; } }
 @media (max-width: 600px) {
   .navbar-header p {
     font-size: 25px; }
@@ -942,12 +952,16 @@ footer.contact {
     font-size: 22px; }
 
   .text_before_profile h2 {
-    font-size: 29px; } }
+    font-size: 29px; }
+
+  .main_phone_call a {
+    font-size: 23px; }
+
+  .main_section .blazon span {
+    font-size: 22px; } }
 @media (max-width: 430px) {
   .main_section .blazon img {
     width: 77px; }
-  .main_section .blazon span {
-    font-size: 12px; }
 
   .nav.navbar-nav a {
     font-size: 22px; } }

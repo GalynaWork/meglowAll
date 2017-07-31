@@ -10,7 +10,7 @@ $(document).ready(function () {
         $("#estate_button").addClass("download");
         $('html, body').animate({
                 scrollTop: $(".logo").offset().top
-            }, 2000);
+            }, 1500);
         }
         }
 

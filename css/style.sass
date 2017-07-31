@@ -476,6 +476,7 @@ footer
       margin-top: 9px
       line-height: 1.1em
       margin-left: 6px
+      text-align: left
     ul
       padding-left: 24px
       padding-top: 31px
@@ -541,11 +542,20 @@ footer
 .call_us_contact
   span.glyphicon
     display: none
+.main_section.contact
+  min-height: 679px
+  height: 100%
+footer.contact
+  position: relative
+  width: 100%
 /***contact**/
 /****profile****/
 .title-estate.profile
   .title-profile
-    display: block
+    display: flex
+    display: -webkit-flex
+    flex-direction: column
+    -webkit-flex-direction: column
     float: left
     p
       font: 900 16px "Source Sans Pro", sans-serif

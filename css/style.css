@@ -784,8 +784,9 @@ footer.contact {
     display: none; }
 
   .mail {
-    text-align: center !important;
-    width: 100%; }
+    font-size: 30px;
+    width: 100%;
+    text-align: left; }
     .mail a {
       color: #3f71b7; }
 
@@ -883,7 +884,18 @@ footer.contact {
       font-size: 40px; }
 
   .text_prof_helpful {
-    background: #fff; } }
+    background: #fff;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column; }
+
+  .call_us_contact {
+    order: -1; }
+
+  .call_us_contact a {
+    color: #1b2618;
+    font-size: 35px; } }
 @media (max-width: 600px) {
   .navbar-header p {
     font-size: 25px; }
@@ -958,11 +970,17 @@ footer.contact {
   .text_before_profile h2 {
     font-size: 29px; }
 
-  .main_phone_call a {
+  .main_phone_call a, .call_us_contact a {
     font-size: 23px; }
 
+  .mail a {
+    font-size: 19px; }
+
   .main_section .blazon span {
-    font-size: 22px; } }
+    font-size: 22px; }
+
+  .text_prof_helpful.contact br:first-child {
+    display: none; } }
 @media (max-width: 430px) {
   .main_section .blazon img {
     width: 77px; }

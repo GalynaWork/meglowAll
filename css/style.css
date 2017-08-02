@@ -643,6 +643,7 @@ footer.contact {
   .title-estate .content_estate h1 {
     font-size: 29px; } }
 @media (max-width: 767px) {
+  .call_us_contact span:first-child{display:none};
   .title-estate .content_estate {
     height: auto; }
 

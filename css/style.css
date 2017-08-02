@@ -798,7 +798,7 @@ footer.contact {
     .call_us_contact span.glyphicon {
       display: inline-block;
       color: #3f71b7;
-      
+      font-size:29px;
       margin-right: 3px; }
 
   .img_text.contact, .text_prof_helpful {

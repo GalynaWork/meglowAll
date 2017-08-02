@@ -940,6 +940,8 @@ footer.contact {
     width: 100%;
     z-index: 10;
     top: -9px; }
+  .call_us_contact span.glyphicon{
+    font-size:19px}
 
   .logo {
     top: -35px; }

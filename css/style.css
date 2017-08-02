@@ -628,8 +628,7 @@ footer.contact {
 .description-profile, .text_before_profile .text {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1; }
+  }
 
 /****profile*** */
 @media (max-width: 1024px) {
